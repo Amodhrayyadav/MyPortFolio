@@ -60,27 +60,31 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/rajeshchityal" target="_blank">
+          <a href="https://github.com/amodhrayyadav" target="_blank">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/rajeshchityal" target="_blank">
+          <a href="https://www.linkedin.com/in/amodhrayyadav" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com/rajeshchityal" target="_blank">
+          <a href="https://x.com/amodhrayyadav?s=21" target="_blank">
             <FaXTwitter />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com/rajeshchityal" target="_blank">
+          <a href="https://www.instagram.com/amodh__r?igsh=ZHIycWJ2YzhxanNz&utm_source=qr" target="_blank">
             <FaInstagram />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a 
+        className="resume-button" 
+        href="https://pdpuacin-my.sharepoint.com/my?id=%2Fpersonal%2F24bcp365%5Fpdpu%5Fac%5Fin%2FDocuments%2FCV%2Epdf&parent=%2Fpersonal%2F24bcp365%5Fpdpu%5Fac%5Fin%2FDocuments&ga=1"
+        target="_blank"
+      >
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

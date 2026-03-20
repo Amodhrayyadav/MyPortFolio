@@ -87,11 +87,10 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>FRONTEND</h3>
-              <h4>Building Interactive UIs</h4>
+              <h3>💻 SOFTWARE DEVELOPMENT</h3>
+              <h4>Building Scalable Applications</h4>
               <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
+                I design and develop full-stack web applications using modern technologies. From frontend interfaces to backend systems, I focus on performance, scalability, and clean architecture.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -126,11 +125,10 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BACKEND</h3>
-              <h4>Scalable Server Architecture</h4>
+              <h3>🤖 AI / CHATBOT DEVELOPMENT</h3>
+              <h4>Intelligent Automation Systems</h4>
               <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
+                I build AI-powered chatbots using OpenAI APIs that automate tasks and provide smart, interactive user experiences. I focus on creating efficient and user-friendly AI solutions.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

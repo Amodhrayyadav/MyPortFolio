@@ -15,43 +15,40 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>B.Tech in Computer Engineering</h4>
+                <h5>Pandit Deendayal Energy University (PDEU)</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2028</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Currently in 2nd year. CGPA: 8.66. Core subjects include Data Structures, 
+              Object-Oriented Programming (OOP), and Database Management Systems (DBMS).
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Google Student Ambassador (GSA)</h4>
+                <h5>Google</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Organizing workshops and coding sessions for students interested in programming. 
+              Guiding peers in programming concepts and Data Structures & Algorithms (DSA).
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Member</h4>
+                <h5>AIESEC Ahmedabad</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Participating in leadership and community initiatives. Developing teamwork, 
+              communication, and project management skills.
             </p>
           </div>
         </div>
