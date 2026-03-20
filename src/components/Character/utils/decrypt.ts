@@ -1,4 +1,7 @@
 async function generateAESKey(password: string): Promise<CryptoKey> {
+  if (!crypto || !crypto.subtle) {
+    throw new Error("Web Crypto API is not available (HTTPS required).");
+  }
   const passwordBuffer = new TextEncoder().encode(password);
   const hashedPassword = await crypto.subtle.digest("SHA-256", passwordBuffer);
   return crypto.subtle.importKey(
@@ -15,6 +18,9 @@ export const decryptFile = async (
   password: string
 ): Promise<ArrayBuffer> => {
   const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+  }
   const encryptedData = await response.arrayBuffer();
   const iv = new Uint8Array(encryptedData.slice(0, 16));
   const data = encryptedData.slice(16);
